@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Map</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<link href="style.css" type="text/css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Poller+One|Raleway:300" rel="stylesheet">
+</head>
+<body>
+	<div class="wrap">
+		<div class="titleBlock">
+			<div class="titleText">
+				<p>Cactus Map</p>
+			</div>
+		</div>
+		<nav class="navbar navbar-inverse navbar-fixed-top">
+		  	<div class="container-fluid">
+		    	<ul class="nav navbar-nav">
+		      		<li><a href="index.html">Cactus:</a></li>
+		      		<li><a href="menu.html">Menu:<span class="glyphicon glyphicon-grain"></span></a></li>
+		      		<li><a href="aboutUs.html">About Us: <span class="glyphicon glyphicon-user"></span></a></li>
+		      		<li class="active"><a href="map.html">Map:<span class="glyphicon glyphicon-map-marker"></span></a></li>
+		    	</ul>
+		  	</div>
+		</nav>
+		<div class = "mapWrap col-lg-7 col-md-9 col-sm-10 col-xs-10">
+			<div id="map" style="width:100%;height:400px;background:white"></div>
+				<script>
+				function myMap() {
+				var mapOptions = {
+				    center: new google.maps.LatLng(37.8677253,-122.269819),
+				    zoom: 12,
+				    mapTypeId: google.maps.MapTypeId.ROADMAP
+				}
+				var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+				var marker1 = new google.maps.Marker({
+  						position:new google.maps.LatLng(37.8916045,-122.2778365),
+  						animation:google.maps.Animation.DROP
+  					});
+				var marker2 = new google.maps.Marker({
+  						position:new google.maps.LatLng(37.8439555,-122.2515761),
+  						animation:google.maps.Animation.DROP
+  					});
+					marker1.setMap(map);
+					marker2.setMap(map);
+				}
+				</script>
+
+				<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBC85CYTnopY5_wSxtdfGAX82_W08jy9MQ&callback=myMap"></script>
+			</div>
+		</div>
+		<div class="footerBlock">
+			<img src="images/aboutUs.png" id="footIMG" alt="aboutUs" />
+			<p>©PlzDon'tSueMe INC.</p>
+		</div>
+	</div>
+</body>
+</html>

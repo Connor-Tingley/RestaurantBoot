@@ -1,0 +1,395 @@
+@media only screen and (max-width: 991px) {
+	#greenLogo{
+		display: none;
+	}
+	#chef{
+		display: none;
+	}
+    .titleText{
+		top: 30%;
+	}
+    .titleBlock{
+    	font-size: 230%;
+    }
+	#tacoIMG{
+		border-bottom: solid;
+		border-width: 15px;
+		border-color: rgb(38,38,38);
+	}
+    .menu{
+    	border: solid;
+		border-color: rgb(38,38,38);
+		background-color: rgb(246, 255, 237);
+		border-width: 15px;
+	}
+	.indexWrap{
+		border: solid;
+		border-color: rgb(38,38,38);
+		background-color: rgb(246, 255, 237);
+		border-width: 15px;
+	}
+	.mapWrap{
+		border: solid;
+		border-color: rgb(38,38,38);
+		background-color: rgb(246, 255, 237);
+		border-width: 15px;
+		margin-left: 8.34%;
+	}
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    #ensaladas{
+    	clear:left;
+    }
+    .titleText{
+		top: 20%;
+	}
+    .titleBlock{
+    	font-size: 300%;
+    }
+    #tacoIMG{
+		border-bottom: solid;
+		border-width: 20px;
+		border-color: rgb(38,38,38);
+	}
+    .menu{
+    	border: solid;
+		border-color: rgb(38,38,38);
+		background-color: rgb(246, 255, 237);
+		border-width: 20px;
+	}
+	.indexWrap{
+		border: solid;
+		border-color: rgb(38,38,38);
+		background-color: rgb(246, 255, 237);
+		border-width: 20px;
+	}
+	.mapWrap{
+		border: solid;
+		border-color: rgb(38,38,38);
+		background-color: rgb(246, 255, 237);
+		border-width: 20px;
+		margin-left: 12.5%;
+	}
+	#greenLogo{
+		display: inline-block;
+		float: right;
+	}
+	#chef{
+		display: inline-block;
+		float: right;
+		border-radius: 50%;
+	}
+}
+@media only screen and (min-width: 1200px) {
+    #drinks{
+    	clear:left;
+    }
+    .titleText{
+		top: 20%;
+	}
+    .titleBlock{
+    	font-size: 300%;
+    }	
+    #tacoIMG{
+		border-bottom: solid;
+		border-width: 25px;
+		border-color: rgb(38,38,38);
+	}
+    .menu{
+    	border: solid;
+		border-color: rgb(38,38,38);
+		background-color: rgb(246, 255, 237);
+		border-width: 25px;
+	}
+	.indexWrap{
+		border: solid;
+		border-color: rgb(38,38,38);
+		background-color: rgb(246, 255, 237);
+		border-width: 25px;
+	}
+	.mapWrap{
+		border: solid;
+		border-color: rgb(38,38,38);
+		background-color: rgb(246, 255, 237);
+		border-width: 25px;
+		margin-left: 20.84%;
+	}
+	#greenLogo{
+		display: inline-block;
+		float: right;
+	}
+	#chef{
+		display: inline-block;
+		float: right;
+		border-radius: 50%;
+	}
+}
+
+body{
+	box-sizing: border-box;
+	font-family: 'Raleway', sans-serif;
+	background-image: url("images/back.png");
+}
+h1{
+	font-size: 250%;
+}
+a{
+	box-sizing: border-box;
+	text-decoration: none;
+}
+.section table{
+	width: 100%
+}
+.titleBlock{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height:140px;
+	background-color: rgb(246, 255, 237);
+	z-index: 1000;
+	font-family: 'Poller One', cursive;
+}
+.titleText{
+	position: relative;
+	left: 0;
+	width: 100%;
+	text-align: center;
+	font-weight: bold;
+	vertical-align: center;
+	color: #640d5a;
+}
+.spacer{
+	box-sizing: border-box;
+	display: inline-block;
+	position: relative;
+	top: 0px;
+	left: 0;
+	width: 100%;
+}
+.menu{
+	box-sizing: border-box;
+	float:left;
+	padding-top: 5px;
+	top: 0px;
+	margin-left: 3%;
+	width: 94%;
+	padding-bottom: 65px;
+	margin-bottom: 30px;
+	margin-top: 195px;
+}
+.indexWrap{
+	box-sizing: border-box;
+	float:left;
+	padding-top: 0px;
+	top: 0px;
+	margin-left: 15%;
+	width: 70%;
+	padding-bottom: 65px;
+	margin-bottom: 30px;
+	margin-top: 195px;
+}
+.mapWrap{
+	box-sizing: border-box;
+	float:left;
+	padding-top: 0px;
+	top: 0px;
+	padding-right: 0px;
+	padding-left: 0px;
+	padding-bottom: 0px;
+	margin-bottom: 30px;
+	margin-top: 195px;
+}
+.menuSpacer{
+	box-sizing: border-box;
+	position: relative;
+	top: 20px;
+	left: 3%;
+	width: 94%;
+}
+.indexSpacer{
+	box-sizing: border-box;
+	position: relative;
+	background-color: rgb(246, 255, 237);
+	top: 0px;
+	left: 0%;
+	width: 100%;
+}
+.aboutSpacer{
+	box-sizing: border-box;
+	position: relative;
+	background-color: rgb(246, 255, 237);
+	top: 0px;
+	padding-top: 5%;
+	padding-right: 8%;
+	padding-left: 8%;
+	padding-bottom: -4%;
+	left: 0%;
+	width: 100%;
+	margin-bottom: -3%;
+}
+.section{
+	display: inline-block;
+	box-sizing: border-box;
+	float:left;
+	padding-left: 3%;
+	padding-right: 3%;
+}
+.footerBlock{
+	display: inline-block;
+	float: left;
+	width:100%;
+	padding: 50px;
+	height: 200px;
+	color: white;
+	background-color: rgb(38,38,38); 
+}
+#footIMG{
+	display: block;
+	margin: auto;
+	height: 75px;
+	margin-bottom: 45px;
+}
+.linkBlock{
+	display: inline-block;
+	box-sizing: border-box;
+	float:left;
+	padding-top: 50px; 
+}
+.navbar{
+	z-index: 2000;
+	-moz-border-radius: 0px;
+	-webkit-border-radius: 0px;
+	border-radius: 0px;
+	top:115px;
+}
+.navbar-collapse.collapse {
+  display: block!important;
+}
+
+.navbar-nav>li, .navbar-nav {
+  float: left !important;
+}
+
+.navbar-nav.navbar-right:last-child {
+  margin-right: -15px !important;
+}
+
+.navbar-right {
+  float: right!important;
+}
+.linkDisplay{
+	display: inline-block;
+	box-sizing: border-box;
+	width: 60%;
+	margin-left: 20%;
+	margin-right: 20%; 
+	float:left;
+	text-align: center;
+	padding-top: 20px;
+	border: solid;
+	border-color: rgb(38,38,38);
+	background-color: rgb(246, 255, 237);
+    border-width: 10px;
+	color: #640d5a;
+	font-size: 150%;
+	font-family: 'Poller One', cursive;
+	background-color: #DCF1BA;
+}
+#linkIMG{
+	display: block;
+	margin: auto;
+	height: 75px;
+}
+.aboutSpacer h1{
+	color: #1A5245;
+	font-family: 'Poller One', cursive;
+	font-size: 200%;
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 70px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+.fa:hover {
+    opacity: 0.8;
+    text-decoration: none;
+    color: white;
+}
+.fa:visited {
+    text-decoration: none;
+    color: white;
+}
+.fa:active {
+    opacity: 0.8;
+    text-decoration: none;
+    color: white;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-yelp {
+  background: #cb2027;
+  color: white;
+}
+#abh1{
+	color: #640d5a;
+}
+#greenL{
+	color: #1A5245;
+}
+#socialM{
+	color: #2D4197;
+}
+#mapIMG{
+	box-sizing: border-box;
+	z-index: -10;
+}
+#meet{
+	color: #C20B29;
+}
+#signatures h1{
+	color:rgb(240, 95, 47);
+	font-family: 'Poller One', cursive;
+}
+#signatures h2{
+	color:rgb(245, 130, 32);
+	font-family: 'Poller One', cursive;
+}
+#favorites h1{
+	color: #2D4197;
+	font-family: 'Poller One', cursive;
+}
+#favorites h2{
+	color: #1390C8;
+	font-family: 'Poller One', cursive;
+}
+#ensaladas h1{
+	color: #1A5245;
+	font-family: 'Poller One', cursive;
+}
+#ensaladas h2{
+	color: #92C63E;
+	font-family: 'Poller One', cursive;
+}
+#drinks h1{
+	color: #640d5a;
+	font-family: 'Poller One', cursive;
+}
+#desserts h1{
+	color: rgb(106, 46, 6);
+	font-family: 'Poller One', cursive;
+}
+#catering h1{
+	color: #C20B29;
+	font-family: 'Poller One', cursive;
+}
